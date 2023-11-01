@@ -1,0 +1,11 @@
+Tests: testsuite
+Depends:
+ python3-all,
+ python3-fakeredis,
+ python3-flexmock,
+ python3-memcache,
+ python3-pytest,
+ python3-pytest-mock,
+ python3-redis,
+ @,
+Restrictions: allow-stderr

@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
 
+export PYBUILD_NAME=cachy
+
+export PYBUILD_TEST_ARGS=--ignore=tests/stores/test_memcached_store.py
+
 %:
-	dh $@
+	dh $@ --with python3 --buildsystem=pybuild
