@@ -1,0 +1,9 @@
+---
+Bug-Database: https://github.com/sdispater/cachy/issues
+Bug-Submit: https://github.com/sdispater/cachy/issues/new
+Changelog: https://github.com/sdispater/cachy/blob/master/CHANGELOG.md
+Registry:
+  - Name: PyPI
+    Entry: cachy
+Repository: https://github.com/sdispater/cachy.git
+Repository-Browse: https://github.com/sdispater/cachy
